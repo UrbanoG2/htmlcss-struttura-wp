@@ -28,7 +28,7 @@ header div {
 .middle-container {
     width: 100%;
     height: 400px;
-    background-color: darkgoldenrod;
+    background-color: coral ;
     margin-top: 20px;
 }
 
@@ -39,14 +39,17 @@ header div {
     margin-top: 20px;
 }
 
+/* columns */
+
 .col-left,
 .col-right {
     width: 20%;
     height: 500px;
     background-color: lightskyblue;
     float: left;
-    border-top: 15px solid blue;
-    border-bottom: 15px solid blue;
+    border-top: 15px solid rgba(0, 0, 255, 0.527);
+    border-bottom: 15px solid rgba(0, 0, 255, 0.527);
+
 }
 
 .col-center {
@@ -54,6 +57,12 @@ header div {
     height: 500px;
     background-color: lightskyblue;
     float: left;
-    border: 15px solid blue;
+    border: 15px solid rgba(0, 0, 255, 0.527);
+}
 
+footer div {
+    width: 100%;
+    height: 50px;
+    background-color: violet;
+    margin-top: 10px;
 }
